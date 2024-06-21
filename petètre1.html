@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="petètre1.css">
+    <title>Document</title>
+
+</head>
+<body>
+  <button class="fleche-defilement" id="fleche-defilement-prev">
+    &#8249;
+  </button>
+  <button class="fleche-defilement" id="fleche-defilement-next">
+    &#8250;
+  </button>
+  <ul class="diaporama-couleurs" id="diaporama-couleurs">
+    <li class="couleur"></li>
+    <li class="couleur"></li>
+    <li class="couleur"></li>
+  </ul>
+
+<script>
+const slidesContainer = document.getElementById("diaporama-couleurs");
+const slide = document.querySelector(".couleur");
+const prevButton = document.getElementById("fleche-defilement-prev");
+const nextButton = document.getElementById("fleche-defilement-next");
+
+nextButton.addEventListener("click", () => {
+  const slideWidth = slide.clientWidth;
+  slidesContainer.scrollLeft += slideWidth;
+});
+
+prevButton.addEventListener("click", () => {
+  const slideWidth = slide.clientWidth;
+  slidesContainer.scrollLeft -= slideWidth;
+});
+</script>
+
+</body>
+</html>

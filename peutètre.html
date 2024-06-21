@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="peutètre.css">
+    <title>Document</title>
+</head>
+<body>
+  <button id="toggle-blocks-button">Afficher/Masquer les Blocs</button>
+  <div id="new-blocks-container">
+      <div class="new-block"></div>
+      <div class="new-block1"></div>
+  </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const button = document.getElementById('toggle-blocks-button');
+    const blocksContainer = document.getElementById('new-blocks-container');
+
+    button.addEventListener('click', () => {
+        if (blocksContainer.style.display === 'block' || blocksContainer.style.display === '') {
+            blocksContainer.style.display = 'none';
+        } else {
+            blocksContainer.style.display = 'block';
+        }
+    });
+});
+</script>
+
+</body>
+</html>     

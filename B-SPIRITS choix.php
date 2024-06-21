@@ -1,0 +1,4407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="B-SPIRITS choix.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+<div class="b-1">    
+              
+      <div class="navbar1">
+        <div class="dropdown1">
+        <button class="dropbtn1" onclick="myFunction1()">
+          <div class="b-24">
+          Mood
+          </div>
+            <i class="fa fa-caret-down1"></i>
+        </button>
+            <div class="dropdown-content1" id="myDropdown1">
+                <div class="carousel-container">
+                    <div class="carousel">
+                <div class="b-2">
+                    <a href="#">
+                        <div class="im1">
+                            <img src="./IMAGES1/Depositphotos_211065034_XL.jpg"/>
+                        </div>
+                        <div class="b-6">
+                            <div class="b-7">
+                              <p>Lorem ipsum dolor sit amet. 
+            Eum ducimus reiciendis id 
+            eius dolorem ut blanditiis 
+            facere. Qui atque natus et 
+            quia molestiae in quod sint
+             aut tenetur nihil!</p>
+                              </div>
+                              </div>
+                    </a>
+                    <a href="#">
+                        <div class="im1">
+                            <img src="./IMAGES1/Depositphotos_34784409_XL.jpg"/>
+                        </div>
+                        <div class="b-8">
+                            <div class="b-9">
+                              <p>Lorem ipsum dolor sit amet. 
+            Eum ducimus reiciendis id 
+            eius dolorem ut blanditiis 
+            facere. Qui atque natus et 
+            quia molestiae in quod sint
+             aut tenetur nihil!</p>
+                              </div>
+                              </div>
+                    </a>
+                </div>
+                <div class="b-3">
+                    <a href="#">
+                        <div class="im1">
+                            <img src="./IMAGES1/Fotolia_188806_XS.jpg"/>
+                        </div>
+                        <div class="b-10">
+                            <div class="b-11">
+                              <p>Lorem ipsum dolor sit amet. 
+            Eum ducimus reiciendis id 
+            eius dolorem ut blanditiis 
+            facere. Qui atque natus et 
+            quia molestiae in quod sint
+             aut tenetur nihil!</p>
+                              </div>
+                              </div>
+                    </a>
+                    <a href="#">
+                        <div class="im1">
+                            <img src="./IMAGES1/Fotolia_38023519_S.jpg"/>
+                    </div>
+                    <div class="b-12">
+                        <div class="b-13">
+                          <p>Lorem ipsum dolor sit amet. 
+        Eum ducimus reiciendis id 
+        eius dolorem ut blanditiis 
+        facere. Qui atque natus et 
+        quia molestiae in quod sint
+         aut tenetur nihil!</p>
+                          </div>
+                          </div>
+                </a>
+                </div>
+                <div class="b-4">
+                    <a href="#">
+                        <div class="im1">
+                            <img src="./IMAGES1/Fotolia_62379893_XS.jpg"/>
+                        </div>
+                        <div class="b-14">
+                            <div class="b-15">
+                              <p>Lorem ipsum dolor sit amet. 
+            Eum ducimus reiciendis id 
+            eius dolorem ut blanditiis 
+            facere. Qui atque natus et 
+            quia molestiae in quod sint
+             aut tenetur nihil!</p>
+                              </div>
+                              </div>
+                    </a>
+                    <a href="#">
+                        <div class="im1">
+                            <img src="./IMAGES1/Fotolia_12967994_XS.jpg"/>
+                        </div>
+                        <div class="b-16">
+                            <div class="b-17">
+                              <p>Lorem ipsum dolor sit amet. 
+            Eum ducimus reiciendis id 
+            eius dolorem ut blanditiis 
+            facere. Qui atque natus et 
+            quia molestiae in quod sint
+             aut tenetur nihil!</p>
+                              </div>
+                              </div>
+                    </a>
+                </div>
+            </div>
+        </div> 
+    </div>
+    
+    <script>
+    
+    function myFunction1() {
+      document.getElementById("myDropdown1").classList.toggle("show1");
+    }
+
+    </script>
+
+
+
+
+</div>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+const carouselContainer = document.querySelector('.carousel-container');
+const carousel = document.querySelector('.carousel');
+let isMouseDown = false;
+let startY;
+let scrollTop;
+
+carouselContainer.addEventListener('mousedown', (e) => {
+isMouseDown = true;
+startY = e.pageY - carouselContainer.offsetTop;
+scrollTop = carouselContainer.scrollTop;
+carouselContainer.style.cursor = 'grabbing';
+carouselContainer.style.userSelect = 'none';
+});
+
+carouselContainer.addEventListener('mouseleave', () => {
+isMouseDown = false;
+carouselContainer.style.cursor = 'grab';
+});
+
+carouselContainer.addEventListener('mouseup', () => {
+isMouseDown = false;
+carouselContainer.style.cursor = 'grab';
+});
+
+carouselContainer.addEventListener('mousemove', (e) => {
+if (!isMouseDown) return;
+e.preventDefault();
+const y = e.pageY - carouselContainer.offsetTop;
+const walk = (y - startY) * 2; 
+carouselContainer.scrollTop = scrollTop - walk;
+});
+
+carouselContainer.style.cursor = 'grab';
+});
+</script> 
+
+      
+  
+  
+  
+  
+      
+  
+  
+  
+  <div class="navbar2">
+        <div class="dropdown2">
+        <button class="dropbtn2" onclick="myFunction2()">
+          <div class="b-18">
+          Homme
+        </div>
+            <i class="fa fa-caret-down2"></i>
+        </button>
+            <div class="dropdown-content2" id="myDropdown2">
+                <a href="petètre2.html">
+                    <div class="im2">
+                        t-shirt
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="im3">
+                        Sweat
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="im4">
+                        pijama
+                    </div>
+                </a>
+            </div>
+        </div> 
+    </div>
+    
+    <script>
+    
+    function myFunction2() {
+      document.getElementById("myDropdown2").classList.toggle("show2");
+    }
+  
+    </script>
+  
+  
+  <div class="navbar3">
+    <div class="dropdown3">
+    <button class="dropbtn3" onclick="myFunction3()">
+      <div class="b-19">
+      Femme
+      </div>
+        <i class="fa fa-caret-down3"></i>
+    </button>
+        <div class="dropdown-content3" id="myDropdown3">
+            <a href="#">
+                <div class="im5">
+                   t-shirt
+                </div>
+            </a>
+            <a href="#">
+                <div class="im6">
+                    Sweat
+                </div>
+            </a>
+            <a href="#">
+                <div class="im7">
+                    pijama
+                </div>
+            </a>
+        </div>
+    </div> 
+  </div>
+  
+  <script>
+  
+  function myFunction3() {
+  document.getElementById("myDropdown3").classList.toggle("show3");
+  }
+  
+  </script>
+  
+
+
+
+  <!-- <div class="i1">
+    <img src="./IMAGES1/Untitled-1-Recovered-Recovered.png"/> 
+    </a>
+</div> -->
+
+
+
+
+  <div class="im8">
+  <img src="./IMAGES1/5bf6fcff3d5623.27094295.jpg"/> 
+  </div>
+  
+  <div class="navbar4">
+  <div class="dropdown4">
+  <button class="dropbtn4" onclick="myFunction4()">
+    <div class="im9">
+    <img src="./IMAGES1/icône-du-vecteur-de-compte-panneau-d-illustration-utilisateur-symbole-ou-logo-l-homme-peut-être-utilisé-pour-des-sites-web-228346098.webp"/>
+  </div>
+      <i class="fa fa-caret-down4"></i>
+  </button>
+      <div class="dropdown-content4" id="myDropdown4">
+        <div class="b-20">   
+          <a href="#">
+            <div class="im10">
+              <img src="./IMAGES1/icône-du-vecteur-de-compte-panneau-d-illustration-utilisateur-symbole-ou-logo-l-homme-peut-être-utilisé-pour-des-sites-web-228346098.webp"/>
+               </div>
+          </a>
+          <a href="#">
+              
+          </a>
+        </div>
+          <a href="#">
+            <div class="b-21">
+  
+              <div class="navbar5">
+                <div class="dropdown5">
+                <button class="dropbtn5" onclick="myFunction5()">
+                   <div class="b-22">
+              historique du panier
+              </div>
+                    <i class="fa fa-caret-down5"></i>
+                </button>
+                    <div class="dropdown-content5" id="myDropdown5">
+                        <a href="#">
+                            
+                        </a>
+                        <a href="#">
+                            
+                        </a>
+                        <a href="#">
+                            
+                        </a>
+                    </div>
+                </div> 
+              </div>
+              
+              <script>
+              
+              function myFunction5() {
+              document.getElementById("myDropdown5").classList.toggle("show5");
+              }
+              
+              </script>
+             
+            </div>
+          </a>
+      </div>
+  </div> 
+  </div>
+  <script>
+  
+  function myFunction4() {
+    document.getElementById("myDropdown4").classList.toggle("show4");
+  }
+  
+  </script>
+  
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="b-s1">
+    <div class="ima9">
+      <img id="main-picture" src="./IMAGES1/TS-Coll-rond-blanc.png"/>
+      <img id="main-picture1" src="./IMAGES1/TS-Coll-rond-bleumarine.png"/>
+      <img id="main-picture2" src="./IMAGES1/TS-Coll-rond-rouge.png"/>
+      <img id="main-picture3" src="./IMAGES1/TS-Coll-rond-jaune.png"/>
+      <img id="main-picture4" src="./IMAGES1/TS-Coll-rond-bleuclair.png"/>
+
+      <img id="taitedemortgauche" class="b-s73" src="./IMAGES1/Untitled-1.png"/>
+      <img id="taitedemortdroite" class="b-s73" src="./IMAGES1/Untitled-1.png"/>
+      <img id="taitedemortnon" class="b-s73" />
+
+      <img id="t-shirtgauche" class="b-s74" src="./IMAGES1/Untitled-2.png"/>
+      <img id="t-shirtdroite" class="b-s74" src="./IMAGES1/Untitled-2.png"/>
+      <img id="t-shirtnon" class="b-s74" />
+
+      <img id="cochongauche" class="b-s75" src="./IMAGES1/Untitled-3.png"/>
+      <img id="cochondroite" class="b-s75" src="./IMAGES1/Untitled-3.png"/>
+      <img id="cochonnon" class="b-s75" />
+
+      <img id="cotegauche" class="b-s76" src="./IMAGES1/Untitled-4.png"/>
+      <img id="cotedroite" class="b-s76" src="./IMAGES1/Untitled-4.png"/>
+      <img id="cotenon" class="b-s76" />
+
+      
+      <img id="chiengauche" class="b-s78" src="./IMAGES1/Untitled-5.png"/>
+      <img id="chiendroite" class="b-s78" src="./IMAGES1/Untitled-5.png"/>
+      <img id="chiennon" class="b-s78" />
+
+<img id="drapauxgauche" class="b-s77" src="./IMAGES1/Untitled-6.png"/>
+      <img id="drapauxdroite" class="b-s77" src="./IMAGES1/Untitled-6.png"/>
+      <img id="drapauxnon" class="b-s77" />
+
+      <img id="bouton1OUI" class="b-s79" src="./IMAGES1/Untitled-7.png"/>
+      <img id="bouton1NON" class="b-s79" />
+
+      <img id="bouton2OUI" class="b-s80" src="./IMAGES1/Untitled-8.png"/>
+      <img id="bouton2NON" class="b-s80" />
+
+      <img id="bouton3OUI" class="b-s81" src="./IMAGES1/Untitled-9.png"/>
+      <img id="bouton3NON" class="b-s81" />
+
+      <img id="fillegauche" class="b-s82" src="./IMAGES1/Untitled-10.png"/>
+      <img id="filledroite" class="b-s82" src="./IMAGES1/Untitled-10.png"/>
+
+      <img id="leongauche" class="b-s83" src="./IMAGES1/Untitled-11.png"/>
+      <img id="leondroite" class="b-s83" src="./IMAGES1/Untitled-11.png"/>
+  
+      <img id="busgauche" class="b-s84" src="./IMAGES1/Untitled-12.png"/>
+      <img id="busdroite" class="b-s84" src="./IMAGES1/Untitled-12.png"/>
+
+      <img id="cotegauche" class="b-s85" src="./IMAGES1/Untitled-13.png"/>
+      <img id="cotedroite" class="b-s85" src="./IMAGES1/Untitled-13.png"/>
+
+      <img id="cotegauche" class="b-s86" src="./IMAGES1/Untitled-14.png"/>
+      <img id="cotedroite" class="b-s86" src="./IMAGES1/Untitled-14.png"/>
+
+      <img id="cotegauche" class="b-s87" src="./IMAGES1/Untitled-15.png"/>
+      <img id="cotedroite" class="b-s87" src="./IMAGES1/Untitled-15.png"/>
+
+      <img id="cotegauche" class="b-s88" src="./IMAGES1/Untitled-16.png"/>
+      <img id="cotedroite" class="b-s88" src="./IMAGES1/Untitled-16.png"/>
+
+      <img id="cotegauche" class="b-s89" src="./IMAGES1/Untitled-17.png"/>
+      <img id="cotedroite" class="b-s89" src="./IMAGES1/Untitled-17.png"/>
+
+      <img id="cotegauche" class="b-s90" src="./IMAGES1/Untitled-18.png"/>
+      <img id="cotedroite" class="b-s90" src="./IMAGES1/Untitled-18.png"/>
+  </div>
+    
+  </div>
+  
+  
+  <div class="b-s2">
+  
+    <div class="navbar8">
+      <div class="dropdown8">
+      <button class="dropbtn8" onclick="myFunction8('./IMAGES1/TS-Coll-rond-blanc.png')">
+        <div class="b-s3">
+          <div class="ima1">
+            <img src="./IMAGES1/TS-Coll-rond-blanc.png"/>
+          </div>
+        </div>
+          <i class="fa fa-caret-down8"></i>
+      </button>
+          <div class="dropdown-content8" id="myDropdown8">
+            
+            
+            
+              <div class="b-s4">
+  
+  
+  
+  
+              
+  
+              
+              
+              
+              
+              
+  
+  
+              
+              
+              
+              <div class="navbar9">
+                <div class="dropdown9">
+                <button class="dropbtn9" onclick="myFunction9()">
+                  <div class="b-s5">
+                    <div class="ima4">
+                      <img src="./IMAGES1/Ecusson5.png"/>
+                    </div>
+                  </div>
+                    <i class="fa fa-caret-down9"></i>
+                </button>
+                    <div class="dropdown-content9" id="myDropdown9">
+                    
+  
+  
+  
+                      
+                      
+  
+  
+  
+  
+                        <div class="carousel-container2">
+                          <div class="carousel2">
+                            
+                  
+                   <div class="b-s6">                
+                  
+                  
+                  
+                  
+                    <div class="navbar10">
+                      <div class="dropdown10">
+                      <button class="dropbtn10" onclick="myFunction10()">
+                        <div class="b-s7">
+                          <div class="ima7">
+                            <img src="./IMAGES1/Ecusson5.png"/>
+                          </div>
+                        </div>
+                          <i class="fa fa-caret-down10"></i>
+                      </button>
+                          <div class="dropdown-content10 dropdown-content" id="myDropdown10">
+                            <div class="b-s6">
+
+
+
+
+                              <div class="b-s8">
+
+                                  <input type="radio" id="position_ecusson_gauche" name="position_ecusson" value="gauche" onclick="myFunction38('gauche')">
+                                  <label for="position_ecusson_gauche">gauche</label><br>
+                                  <input type="radio" id="position_ecusson_droite" name="position_ecusson" value="droite" onclick="myFunction38('droite')">
+                                  <label for="position_ecusson_droite">droite</label><br>
+                                <input type="radio" id="position_ecusson_droite" name="position_ecusson" value="non" onclick="myFunction38('non')">
+                                  <label for="position_ecusson_droite">rien</label><br>
+                                 
+                                  
+                            
+                                </div>
+
+
+                                
+
+                                  
+
+
+                                
+                          </div>
+                          </div>
+                      </div>  
+                    </div>  
+                    
+                    
+
+                    <script>
+                    
+                      function myFunction38(sens) {    
+                        var elements = document.getElementsByClassName('b-s73');
+                        for(var i = 0; i < elements.length; i++){
+                          
+                        elements[i].classList.remove("showblock"); 
+                        
+                       }
+                        document.getElementById("taitedemort"+sens).classList.add("showblock");
+                      }
+                      
+                      </script>
+
+
+
+
+
+                      
+
+
+
+
+
+                      
+
+
+
+
+
+                    
+                    <script>
+                    
+                    function myFunction10() {    
+                      var elements = document.getElementsByClassName('dropdown-content');
+                      for(var i = 0; i < elements.length; i++){
+                        if(elements[i].id!='myDropdown10'){
+                      elements[i].classList.remove("showblock"); 
+                      }
+                     }
+                      document.getElementById("myDropdown10").classList.toggle("showblock");
+                    }
+                    
+                    </script>
+                
+                
+                
+                
+                
+                
+                <div class="navbar11">
+                <div class="dropdown11">
+                <button class="dropbtn11" onclick="myFunction11()">
+                <div class="b-s9">
+                <div class="ima8">
+                <img src="./IMAGES1/ecusson-3.png"/>
+                </div>
+                </div>
+                <i class="fa fa-caret-down11"></i>
+                </button>
+                <div class="dropdown-content11 dropdown-content" id="myDropdown11">
+                
+                  <div class="b-s8">
+
+                      <input type="radio" id="position_ecusson_gauche" name="position_ecusson" value="gauche" onclick="myFunction39('gauche')">
+                      <label for="position_ecusson_gauche">gauche</label><br>
+                      <input type="radio" id="position_ecusson_droite" name="position_ecusson" value="droite" onclick="myFunction39('droite')">
+                      <label for="position_ecusson_droite">droite</label><br>
+                     <input type="radio" id="position_ecusson_droite" name="position_ecusson" value="non" onclick="myFunction39('non')">
+                                  <label for="position_ecusson_droite">rien</label><br>
+                      
+                
+                    </div>
+
+               
+                
+                
+                </div>
+                </div>  
+                </div>  
+                
+                <script>
+                                          
+                  function myFunction39(sens) {    
+                    var elements = document.getElementsByClassName('b-s74');
+                    for(var i = 0; i < elements.length; i++){
+                      
+                    elements[i].classList.remove("showblock"); 
+                    
+                  }
+                    document.getElementById("t-shirt"+sens).classList.add("showblock");
+                  }
+                  
+                  </script>
+                
+                <script>
+                
+                function myFunction11() {
+                  var elements = document.getElementsByClassName('dropdown-content');
+                      for(var i = 0; i < elements.length; i++){
+                        if(elements[i].id!='myDropdown11'){
+                      elements[i].classList.remove("showblock"); 
+                      }
+                     }
+                document.getElementById("myDropdown11").classList.toggle("showblock");
+                }
+                
+                </script>
+</div>
+                  
+                  
+                  
+
+
+
+
+<div class="b-s6">                
+                  
+                  
+                  
+                  
+  <div class="navbar12">
+    <div class="dropdown12">
+    <button class="dropbtn12" onclick="myFunction12()">
+      <div class="b-s11">
+        <div class="ima7">
+          <img src="./IMAGES1/Ecusson2.png"/>
+        </div>
+      </div>
+        <i class="fa fa-caret-down12"></i>
+    </button>
+        <div class="dropdown-content12 dropdown-content" id="myDropdown12">
+          <div class="b-s8">
+
+              <input type="radio" id="position_ecusson_gauche" name="position_ecusson" value="gauche" onclick="myFunction40('gauche')">
+              <label for="position_ecusson_gauche">gauche</label><br>
+              <input type="radio" id="position_ecusson_droite" name="position_ecusson" value="droite" onclick="myFunction40('droite')">
+              <label for="position_ecusson_droite">droite</label><br>
+             <input type="radio" id="position_ecusson_droite" name="position_ecusson" value="non" onclick="myFunction40('non')">
+                                  <label for="position_ecusson_droite">rien</label><br>
+              
+        
+            </div>
+  
+  
+        </div>
+    </div>  
+  </div>  
+  
+  <script>
+                                          
+    function myFunction40(sens) {    
+      var elements = document.getElementsByClassName('b-s75');
+      for(var i = 0; i < elements.length; i++){
+        
+      elements[i].classList.remove("showblock"); 
+      
+    }
+      document.getElementById("cochon"+sens).classList.add("showblock");
+    }
+    
+    </script>
+  
+  <script>
+  
+  function myFunction12() {
+    var elements = document.getElementsByClassName('dropdown-content');
+                      for(var i = 0; i < elements.length; i++){
+                        if(elements[i].id!='myDropdown12'){
+                      elements[i].classList.remove("showblock"); 
+                      }
+                     }
+  document.getElementById("myDropdown12").classList.toggle("showblock");
+  }
+  
+  </script>
+
+
+
+
+
+
+<div class="navbar13">
+<div class="dropdown13">
+<button class="dropbtn13" onclick="myFunction13()">
+<div class="b-s13">
+<div class="ima8">
+<img src="./IMAGES1/ecusson-4.png"/>
+</div>
+</div>
+<i class="fa fa-caret-down13"></i>
+</button>
+<div class="dropdown-content13 dropdown-content" id="myDropdown13">
+  <div class="b-s8">
+
+      <input type="radio" id="position_ecusson_gauche" name="position_ecusson" value="gauche" onclick="myFunction41('gauche')">
+      <label for="position_ecusson_gauche">gauche</label><br>
+      <input type="radio" id="position_ecusson_droite" name="position_ecusson" value="droite" onclick="myFunction41('droite')">
+      <label for="position_ecusson_droite">droite</label><br>
+    <input type="radio" id="position_ecusson_droite" name="position_ecusson" value="non" onclick="myFunction41('non')">
+                                  <label for="position_ecusson_droite">rien</label><br>
+     
+      
+
+    </div>
+
+
+</div>
+</div>  
+</div>  
+
+<script>
+                                  
+function myFunction41(sens) {    
+var elements = document.getElementsByClassName('b-s76');
+for(var i = 0; i < elements.length; i++){
+
+elements[i].classList.remove("showblock"); 
+
+}
+document.getElementById("cote"+sens).classList.add("showblock");
+}
+
+</script>
+
+<script>
+
+function myFunction13() {
+  var elements = document.getElementsByClassName('dropdown-content');
+                      for(var i = 0; i < elements.length; i++){
+                        if(elements[i].id!='myDropdown13'){
+                      elements[i].classList.remove("showblock"); 
+                      }
+                     }
+document.getElementById("myDropdown13").classList.toggle("showblock");
+}
+
+</script>
+</div>
+
+
+
+
+
+                <div class="b-s6">                
+                  
+                  
+                  
+                  
+                      <div class="navbar36">
+                        <div class="dropdown36">
+                        <button class="dropbtn36" onclick="myFunction36()">
+                          <div class="b-s69">
+                            <div class="ima7">
+                              <img src="./IMAGES1/ecusson-6.png"/>
+                            </div>
+                          </div>
+                            <i class="fa fa-caret-down36"></i>
+                        </button>
+                            <div class="dropdown-content36 dropdown-content" id="myDropdown36">
+                              <div class="b-s8">
+
+                                  <input type="radio" id="position_ecusson_gauche" name="position_ecusson" value="gauche" onclick="myFunction42('gauche')">
+                                  <label for="position_ecusson_gauche">gauche</label><br>
+                                  <input type="radio" id="position_ecusson_droite" name="position_ecusson" value="droite" onclick="myFunction42('droite')">
+                                  <label for="position_ecusson_droite">droite</label><br>
+                                <input type="radio" id="position_ecusson_droite" name="position_ecusson" value="non" onclick="myFunction42('non')">
+                                  <label for="position_ecusson_droite">rien</label><br>
+                                 
+                                  
+                            
+                                </div>
+                      
+                      
+                            </div>
+                        </div>  
+                      </div>  
+                      
+                      <script>
+                                                              
+                        function myFunction42(sens) {    
+                          var elements = document.getElementsByClassName('b-s77');
+                          for(var i = 0; i < elements.length; i++){
+                            
+                          elements[i].classList.remove("showblock"); 
+                          
+                        }
+                          document.getElementById("drapaux"+sens).classList.add("showblock");
+                        }
+                        
+                        </script>
+                      
+                      <script>
+                      
+                      function myFunction36() {
+                        var elements = document.getElementsByClassName('dropdown-content');
+                      for(var i = 0; i < elements.length; i++){
+                        if(elements[i].id!='myDropdown36'){
+                      elements[i].classList.remove("showblock"); 
+                      }
+                     }
+                      document.getElementById("myDropdown36").classList.toggle("showblock");
+                      }
+                      
+                      </script>
+                  
+                  
+                  
+                  
+                  
+                  
+                  <div class="navbar37">
+                  <div class="dropdown37">
+                  <button class="dropbtn37" onclick="myFunction37()">
+                  <div class="b-s71">
+                  <div class="ima8">
+                  <img src="./IMAGES1/ecusson-5.png"/>
+                  </div>
+                  </div>
+                  <i class="fa fa-caret-down37"></i>
+                  </button>
+                  <div class="dropdown-content37 dropdown-content" id="myDropdown37">
+                    <div class="b-s8">
+
+                        <input type="radio" id="position_ecusson_gauche" name="position_ecusson" value="gauche" onclick="myFunction43('gauche')">
+                        <label for="position_ecusson_gauche">gauche</label><br>
+                        <input type="radio" id="position_ecusson_droite" name="position_ecusson" value="droite" onclick="myFunction43('droite')">
+                        <label for="position_ecusson_droite">droite</label><br>
+                       <input type="radio" id="position_ecusson_droite" name="position_ecusson" value="non" onclick="myFunction43('non')">
+                                  <label for="position_ecusson_droite">rien</label><br>
+                        
+                  
+                      </div>
+            
+            
+                  </div>
+              </div>  
+            </div>  
+            
+            <script>
+                                                    
+              function myFunction43(sens) {    
+                var elements = document.getElementsByClassName('b-s78');
+                for(var i = 0; i < elements.length; i++){
+                  
+                elements[i].classList.remove("showblock"); 
+                
+              }
+                document.getElementById("chien"+sens).classList.add("showblock");
+              }
+              
+              </script>
+                  
+                  <script>
+                  
+                  function myFunction37() {
+                    var elements = document.getElementsByClassName('dropdown-content');
+                      for(var i = 0; i < elements.length; i++){
+                        if(elements[i].id!='myDropdown37'){
+                      elements[i].classList.remove("showblock"); 
+                      }
+                     }
+                  document.getElementById("myDropdown37").classList.toggle("showblock");
+                  }
+                  
+                  </script>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+                  
+                  
+                          
+                      </div>
+                    
+                  
+                  
+                      <script>
+                  document.addEventListener('DOMContentLoaded', () => {
+                      const carouselContainer = document.querySelector('.carousel-container2');
+                      const carousel = document.querySelector('.carousel2');
+                      let isMouseDown = false;
+                      let startY;
+                      let scrollTop;
+                  
+                      carouselContainer.addEventListener('mousedown', (e) => {
+                          isMouseDown = true;
+                          startY = e.pageY - carouselContainer.offsetTop;
+                          scrollTop = carouselContainer.scrollTop;
+                          carouselContainer.style.cursor = 'grabbing';
+                          carouselContainer.style.userSelect = 'none';
+                      });
+                  
+                      carouselContainer.addEventListener('mouseleave', () => {
+                          isMouseDown = false;
+                          carouselContainer.style.cursor = 'grab';
+                      });
+                  
+                      carouselContainer.addEventListener('mouseup', () => {
+                          isMouseDown = false;
+                          carouselContainer.style.cursor = 'grab';
+                      });
+                  
+                      carouselContainer.addEventListener('mousemove', (e) => {
+                          if (!isMouseDown) return;
+                          e.preventDefault();
+                          const y = e.pageY - carouselContainer.offsetTop;
+                          const walk = (y - startY) * 2; 
+                          carouselContainer.scrollTop = scrollTop - walk;
+                      });
+                  
+                      carouselContainer.style.cursor = 'grab';
+                  });
+                      </script>
+                  
+                 
+  
+  </div>
+  
+  
+  
+  
+              
+                    </div>
+                </div>  
+              </div>  
+              
+              
+              <script>
+              
+              function myFunction9() {
+              var elements = document.getElementsByClassName('dropdown-content');
+            for(var i = 0; i < elements.length; i++){
+              if(elements[i].id!='myDropdown9'){
+            elements[i].classList.remove("show9"); 
+            }
+           }
+            document.getElementById("myDropdown9").classList.toggle("show9");
+            }
+              
+              </script>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="navbar14">
+    <div class="dropdown14">
+    <button class="dropbtn14" onclick="myFunction14()">
+      <div class="b-s15">
+        <div class="ima12">
+          <img src="./IMAGES1/broch2.png"/>
+          </div>
+      </div>
+        <i class="fa fa-caret-down14"></i>
+    </button>
+        <div class="dropdown-content14" id="myDropdown14">
+        
+
+
+
+          
+          
+
+
+
+
+            <div class="carousel-container2">
+              <div class="carousel2">
+                
+      
+       <div class="b-s6">                
+      
+      
+      
+      
+        <div class="navbar15">
+          <div class="dropdown15">
+          <button class="dropbtn15" onclick="myFunction15()">
+            <div class="b-s16">
+              <div class="ima13">
+                <img src="./IMAGES1/broch2.png"/>
+                </div>
+            </div>
+              <i class="fa fa-caret-down15"></i>
+          </button>
+              <div class="dropdown-content15 dropdown-content" id="myDropdown15">
+                <div class="b-s6">
+
+
+
+
+                  <div class="b-s8">
+                    
+                        <input type="radio" id="position_ecusson_gauche" name="position_ecusson" value="OUI" onclick="myFunction44('OUI')">
+                        <label for="position_ecusson_gauche">OUI</label><br>
+                        <input type="radio" id="position_ecusson_gauche" name="position_ecusson" value="NON" onclick="myFunction44('NON')">
+                        <label for="position_ecusson_gauche">NON</label><br>
+                      
+                      
+                      
+                
+                    </div>
+
+
+                    
+
+                      
+
+
+                    
+              </div>
+              </div>
+          </div>  
+        </div>  
+        
+        
+
+        <script>
+        
+          function myFunction44(sens) {    
+            var elements = document.getElementsByClassName('b-s79');
+            for(var i = 0; i < elements.length; i++){
+              
+            elements[i].classList.remove("showblock"); 
+            
+           }
+            document.getElementById("bouton1"+sens).classList.add("showblock");
+          }
+          
+          </script>
+
+
+
+
+
+          
+
+
+
+
+
+          
+
+
+
+
+
+        
+        <script>
+        
+        function myFunction15() {    
+          var elements = document.getElementsByClassName('dropdown-content');
+          for(var i = 0; i < elements.length; i++){
+            if(elements[i].id!='myDropdown15'){
+          elements[i].classList.remove("showblock"); 
+          }
+         }
+          document.getElementById("myDropdown15").classList.toggle("showblock");
+        }
+        
+        </script>
+    
+    
+    
+    
+    
+    
+    <div class="navbar16">
+    <div class="dropdown16">
+    <button class="dropbtn16" onclick="myFunction16()">
+      <div class="b-s18">
+        <div class="ima14">
+          <img src="./IMAGES1/Broche1.png"/>
+          </div>
+      </div>
+    <i class="fa fa-caret-down16"></i>
+    </button>
+    <div class="dropdown-content16 dropdown-content" id="myDropdown16">
+    
+      <div class="b-s8">
+        
+            <input type="radio" id="position_ecusson_gauche" name="position_ecusson" value="OUI" onclick="myFunction45('OUI')">
+            <label for="position_ecusson_gauche">OUI</label><br>
+            <input type="radio" id="position_ecusson_gauche" name="position_ecusson" value="NON" onclick="myFunction45('NON')">
+            <label for="position_ecusson_gauche">NON</label><br>
+          
+         
+
+          
+    
+        </div>
+
+   
+    
+    
+    </div>
+    </div>  
+    </div>  
+    
+    <script>
+                              
+      function myFunction45(sens) {    
+        var elements = document.getElementsByClassName('b-s80');
+        for(var i = 0; i < elements.length; i++){
+          
+        elements[i].classList.remove("showblock"); 
+        
+      }
+        document.getElementById("bouton2"+sens).classList.add("showblock");
+      }
+      
+      </script>
+    
+    <script>
+    
+    function myFunction16() {
+      var elements = document.getElementsByClassName('dropdown-content');
+          for(var i = 0; i < elements.length; i++){
+            if(elements[i].id!='myDropdown16'){
+          elements[i].classList.remove("showblock"); 
+          }
+         }
+    document.getElementById("myDropdown16").classList.toggle("showblock");
+    }
+    
+    </script>
+</div>
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="navbar17">
+  <div class="dropdown17">
+  <button class="dropbtn17" onclick="myFunction17()">
+    <div class="b-s20">
+      <div class="ima15">
+        <img src="./IMAGES1/broche4.png"/>
+        </div>
+    </div>
+      <i class="fa fa-caret-down17"></i>
+  </button>
+      <div class="dropdown-content17 dropdown-content" id="myDropdown17">
+        <div class="b-s6">
+
+
+
+
+          <div class="b-s8">
+            
+                <input type="radio" id="position_ecusson_gauche" name="position_ecusson" value="OUI" onclick="myFunction46('OUI')">
+                <label for="position_ecusson_gauche">OUI</label><br>
+                <input type="radio" id="position_ecusson_gauche" name="position_ecusson" value="NON" onclick="myFunction46('NON')">
+                <label for="position_ecusson_gauche">NON</label><br>
+              
+              
+              
+        
+            </div>
+
+
+            
+
+              
+
+
+            
+      </div>
+      </div>
+  </div>  
+</div>  
+
+
+
+<script>
+
+  function myFunction46(sens) {    
+    var elements = document.getElementsByClassName('b-s82');
+    for(var i = 0; i < elements.length; i++){
+      
+    elements[i].classList.remove("showblock"); 
+    
+   }
+    document.getElementById("bouton3"+sens).classList.add("showblock");
+  }
+  
+  </script>
+
+
+
+<script>
+
+  function myFunction17() {
+  var elements = document.getElementsByClassName('dropdown-content');
+            for(var i = 0; i < elements.length; i++){
+              if(elements[i].id!='myDropdown17'){
+            elements[i].classList.remove("showblock"); 
+            }
+           }
+  document.getElementById("myDropdown17").classList.toggle("showblock");
+  }
+  
+  </script>
+
+
+
+
+
+
+             
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      
+              
+          </div>
+        
+      
+      
+          <script>
+      document.addEventListener('DOMContentLoaded', () => {
+          const carouselContainer = document.querySelector('.carousel-container2');
+          const carousel = document.querySelector('.carousel2');
+          let isMouseDown = false;
+          let startY;
+          let scrollTop;
+      
+          carouselContainer.addEventListener('mousedown', (e) => {
+              isMouseDown = true;
+              startY = e.pageY - carouselContainer.offsetTop;
+              scrollTop = carouselContainer.scrollTop;
+              carouselContainer.style.cursor = 'grabbing';
+              carouselContainer.style.userSelect = 'none';
+          });
+      
+          carouselContainer.addEventListener('mouseleave', () => {
+              isMouseDown = false;
+              carouselContainer.style.cursor = 'grab';
+          });
+      
+          carouselContainer.addEventListener('mouseup', () => {
+              isMouseDown = false;
+              carouselContainer.style.cursor = 'grab';
+          });
+      
+          carouselContainer.addEventListener('mousemove', (e) => {
+              if (!isMouseDown) return;
+              e.preventDefault();
+              const y = e.pageY - carouselContainer.offsetTop;
+              const walk = (y - startY) * 2; 
+              carouselContainer.scrollTop = scrollTop - walk;
+          });
+      
+          carouselContainer.style.cursor = 'grab';
+      });
+          </script>
+      
+     
+
+</div>
+
+
+
+
+  
+        </div>
+    </div>  
+  </div>  
+  
+  
+  <script>
+  
+  function myFunction14() {
+              var elements = document.getElementsByClassName('dropdown-content');
+            for(var i = 0; i < elements.length; i++){
+              if(elements[i].id!='myDropdown14'){
+            elements[i].classList.remove("show14"); 
+            }
+           }
+            document.getElementById("myDropdown14").classList.toggle("show14");
+            }
+  
+  </script>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="navbar18">
+    <div class="dropdown18">
+    <button class="dropbtn18" onclick="myFunction18()">
+      <div class="b-s24">
+        <div class="ima17">
+          <img src="./IMAGES1/HeatTransfert2.png"/>
+          </div>
+      </div>
+        <i class="fa fa-caret-down18"></i>
+    </button>
+        <div class="dropdown-content18" id="myDropdown18">
+        
+
+
+
+          
+          
+
+
+
+
+            <div class="carousel-container2">
+              <div class="carousel2">
+                
+      
+                
+       <div class="b-s6">                
+      
+      
+      
+      
+        <div class="navbar19">
+          <div class="dropdown19">
+          <button class="dropbtn19" onclick="myFunction19()">
+            <div class="b-s25">
+              <div class="ima18">
+                <img src="./IMAGES1/HeatTransfert2.png"/>
+                </div>
+            </div>
+              <i class="fa fa-caret-down19"></i>
+          </button>
+              <div class="dropdown-content19 dropdown-content" id="myDropdown19">
+                <div class="b-s6">
+
+
+
+
+                  <div class="b-s8">
+
+                      <input type="radio" id="position_ecusson_gauche" name="position_ecusson" value="gauche" onclick="myFunction47('gauche')">
+                      <label for="position_ecusson_gauche">gauche</label><br>
+                      <input type="radio" id="position_ecusson_droite" name="position_ecusson" value="droite" onclick="myFunction47('droite')">
+                      <label for="position_ecusson_droite">droite</label><br>
+                     
+                      
+                
+                    </div>
+
+
+                    
+
+                      
+
+
+                    
+              </div>
+              </div>
+          </div>  
+        </div>  
+        
+        
+
+        <script>
+        
+          function myFunction47(sens) {    
+            var elements = document.getElementsByClassName('b-s82');
+            for(var i = 0; i < elements.length; i++){
+              
+            elements[i].classList.remove("showblock"); 
+            
+           }
+            document.getElementById("fille"+sens).classList.add("showblock");
+          }
+          
+          </script>
+
+
+
+
+
+          
+
+
+
+
+
+          
+
+
+
+
+
+        
+        <script>
+        
+        function myFunction19() {    
+          var elements = document.getElementsByClassName('dropdown-content');
+          for(var i = 0; i < elements.length; i++){
+            if(elements[i].id!='myDropdown19'){
+          elements[i].classList.remove("showblock"); 
+          }
+         }
+          document.getElementById("myDropdown19").classList.toggle("showblock");
+        }
+        
+        </script>
+    
+    
+    
+    
+    
+    
+    <div class="navbar20">
+    <div class="dropdown20">
+    <button class="dropbtn20" onclick="myFunction20()">
+      <div class="b-s26">
+        <div class="ima19">
+          <img src="./IMAGES1/HeatTransfert1.png"/>
+          </div>
+      </div>
+    <i class="fa fa-caret-down20"></i>
+    </button>
+    <div class="dropdown-content20 dropdown-content" id="myDropdown20">
+    
+      <div class="b-s8">
+
+          <input type="radio" id="position_ecusson_gauche" name="position_ecusson" value="gauche" onclick="myFunction48('gauche')">
+          <label for="position_ecusson_gauche">gauche</label><br>
+          <input type="radio" id="position_ecusson_droite" name="position_ecusson" value="droite" onclick="myFunction48('droite')">
+          <label for="position_ecusson_droite">droite</label><br>
+         
+          
+    
+        </div>
+
+   
+    
+    
+    </div>
+    </div>  
+    </div>  
+    
+    <script>
+                              
+      function myFunction48(sens) {    
+        var elements = document.getElementsByClassName('b-s83');
+        for(var i = 0; i < elements.length; i++){
+          
+        elements[i].classList.remove("showblock"); 
+        
+      }
+        document.getElementById("leon"+sens).classList.add("showblock");
+      }
+      
+      </script>
+    
+    <script>
+    
+    function myFunction20() {
+      var elements = document.getElementsByClassName('dropdown-content');
+          for(var i = 0; i < elements.length; i++){
+            if(elements[i].id!='myDropdown20'){
+          elements[i].classList.remove("showblock"); 
+          }
+         }
+    document.getElementById("myDropdown20").classList.toggle("showblock");
+    }
+    
+    </script>
+</div>
+      
+      
+      
+
+
+
+
+              
+      
+      
+      
+      
+<div class="navbar21">
+<div class="dropdown21">
+<button class="dropbtn21" onclick="myFunction21()">
+  <div class="b-s27">
+    <div class="ima20">
+      <img src="./IMAGES1/Capture d'écran 2024-06-17 153815.jpg"/>
+      </div>
+  </div>
+<i class="fa fa-caret-down21"></i>
+</button>
+<div class="dropdown-content21 dropdown-content" id="myDropdown21">
+<div class="b-s8">
+
+  <input type="radio" id="position_ecusson_gauche" name="position_ecusson" value="gauche" onclick="myFunction49('gauche')">
+  <label for="position_ecusson_gauche">gauche</label><br>
+  <input type="radio" id="position_ecusson_droite" name="position_ecusson" value="droite" onclick="myFunction49('droite')">
+  <label for="position_ecusson_droite">droite</label><br>
+ 
+  
+
+</div>
+
+
+</div>
+</div>  
+</div>  
+
+<script>
+                              
+function myFunction49(sens) {    
+var elements = document.getElementsByClassName('b-s84');
+for(var i = 0; i < elements.length; i++){
+
+elements[i].classList.remove("showblock"); 
+
+}
+document.getElementById("bus"+sens).classList.add("showblock");
+}
+
+</script>
+
+<script>
+
+function myFunction21() {
+var elements = document.getElementsByClassName('dropdown-content');
+          for(var i = 0; i < elements.length; i++){
+            if(elements[i].id!='myDropdown21'){
+          elements[i].classList.remove("showblock"); 
+          }
+         }
+document.getElementById("myDropdown21").classList.toggle("showblock");
+}
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      
+              
+          </div>
+        
+      
+      
+          <script>
+      document.addEventListener('DOMContentLoaded', () => {
+          const carouselContainer = document.querySelector('.carousel-container2');
+          const carousel = document.querySelector('.carousel2');
+          let isMouseDown = false;
+          let startY;
+          let scrollTop;
+      
+          carouselContainer.addEventListener('mousedown', (e) => {
+              isMouseDown = true;
+              startY = e.pageY - carouselContainer.offsetTop;
+              scrollTop = carouselContainer.scrollTop;
+              carouselContainer.style.cursor = 'grabbing';
+              carouselContainer.style.userSelect = 'none';
+          });
+      
+          carouselContainer.addEventListener('mouseleave', () => {
+              isMouseDown = false;
+              carouselContainer.style.cursor = 'grab';
+          });
+      
+          carouselContainer.addEventListener('mouseup', () => {
+              isMouseDown = false;
+              carouselContainer.style.cursor = 'grab';
+          });
+      
+          carouselContainer.addEventListener('mousemove', (e) => {
+              if (!isMouseDown) return;
+              e.preventDefault();
+              const y = e.pageY - carouselContainer.offsetTop;
+              const walk = (y - startY) * 2; 
+              carouselContainer.scrollTop = scrollTop - walk;
+          });
+      
+          carouselContainer.style.cursor = 'grab';
+      });
+          </script>
+      
+     
+
+</div>
+
+
+
+
+  
+        </div>
+    </div>  
+  </div>  
+  
+  
+  <script>
+  
+  function myFunction18() {
+              var elements = document.getElementsByClassName('dropdown-content');
+            for(var i = 0; i < elements.length; i++){
+              if(elements[i].id!='myDropdown18'){
+            elements[i].classList.remove("show18"); 
+            }
+           }
+            document.getElementById("myDropdown18").classList.toggle("show18");
+            }
+  
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+              
+  <!-- <div class="navbar19">
+      <div class="dropdown19">
+      <button class="dropbtn19" onclick="myFunction19()">
+        <div class="b-s24">
+        </div>
+          <i class="fa fa-caret-down19"></i>
+      </button>
+          <div class="dropdown-content19" id="myDropdown19">
+          
+  
+  
+  
+            <div class="b-s6">
+            
+  
+  
+  
+  
+          <div class="navbar20">
+            <div class="dropdown20">
+            <button class="dropbtn20" onclick="myFunction20()">
+              <div class="b-s25">
+              </div>
+                <i class="fa fa-caret-down20"></i>
+            </button>
+                <div class="dropdown-content20" id="myDropdown20">
+                <div class="b-s26">
+                </div>
+          
+          
+                </div>
+            </div>  
+          </div>  
+          
+          <script>
+  
+            document.addEventListener('DOMContentLoaded', () => {
+                const colorBox = document.querySelector('.b-s26');
+                let isInitialColor = true;
+            
+                colorBox.addEventListener('click', () => {
+                    if (isInitialColor) {
+                        colorBox.style.backgroundColor = '#ffffff'; 
+                    } else {
+                        colorBox.style.backgroundColor = '#000000'; 
+                    }
+                    isInitialColor = !isInitialColor;
+                });
+            });
+                </script>
+          
+          <script>
+          
+          function myFunction20() {
+          document.getElementById("myDropdown20").classList.toggle("show20");
+          }
+          
+          </script>
+  
+  
+  
+  
+  
+  
+  <div class="navbar21">
+  <div class="dropdown21">
+  <button class="dropbtn21" onclick="myFunction21()">
+  <div class="b-s27">
+  </div>
+    <i class="fa fa-caret-down21"></i>
+  </button>
+    <div class="dropdown-content21" id="myDropdown21">
+    <div class="b-s28">
+    </div>
+  
+  
+    </div>
+  </div>  
+  </div>  
+  
+  <script>
+  
+  document.addEventListener('DOMContentLoaded', () => {
+    const colorBox = document.querySelector('.b-s28');
+    let isInitialColor = true;
+  
+    colorBox.addEventListener('click', () => {
+        if (isInitialColor) {
+            colorBox.style.backgroundColor = '#ffffff'; 
+        } else {
+            colorBox.style.backgroundColor = '#000000'; 
+        }
+        isInitialColor = !isInitialColor;
+    });
+  });
+    </script>
+  
+  <script>
+  
+  function myFunction21() {
+  document.getElementById("myDropdown21").classList.toggle("show21");
+  }
+  
+  </script>
+  
+  </div>
+  
+  
+  
+  <div class="b-s6">
+            
+  
+  
+  
+  
+  <div class="navbar22">
+  <div class="dropdown22">
+  <button class="dropbtn22" onclick="myFunction22()">
+    <div class="b-s29">
+    </div>
+      <i class="fa fa-caret-down22"></i>
+  </button>
+      <div class="dropdown-content22" id="myDropdown22">
+      <div class="b-s30">
+      </div>
+  
+  
+      </div>
+  </div>  
+  </div>  
+  
+  <script>
+  
+  document.addEventListener('DOMContentLoaded', () => {
+      const colorBox = document.querySelector('.b-s30');
+      let isInitialColor = true;
+  
+      colorBox.addEventListener('click', () => {
+          if (isInitialColor) {
+              colorBox.style.backgroundColor = '#ffffff'; 
+          } else {
+              colorBox.style.backgroundColor = '#000000'; 
+          }
+          isInitialColor = !isInitialColor;
+      });
+  });
+      </script>
+  
+  <script>
+  
+  function myFunction22() {
+  document.getElementById("myDropdown22").classList.toggle("show22");
+  }
+  
+  </script>
+  
+  
+  
+  
+  
+  
+  <div class="navbar23">
+  <div class="dropdown23">
+  <button class="dropbtn23" onclick="myFunction23()">
+  <div class="b-s31">
+  </div>
+  <i class="fa fa-caret-down23"></i>
+  </button>
+  <div class="dropdown-content23" id="myDropdown23">
+  <div class="b-s32">
+  </div>
+  
+  
+  </div>
+  </div>  
+  </div>  
+  
+  <script>
+  
+  document.addEventListener('DOMContentLoaded', () => {
+  const colorBox = document.querySelector('.b-s32');
+  let isInitialColor = true;
+  
+  colorBox.addEventListener('click', () => {
+  if (isInitialColor) {
+  colorBox.style.backgroundColor = '#ffffff'; 
+  } else {
+  colorBox.style.backgroundColor = '#000000'; 
+  }
+  isInitialColor = !isInitialColor;
+  });
+  });
+  </script>
+  
+  <script>
+  
+  function myFunction23() {
+  document.getElementById("myDropdown23").classList.toggle("show23");
+  }
+  
+  </script>
+  
+  </div>
+  
+  
+  
+  
+    
+          </div>
+      </div>  
+    </div>  
+    
+    
+    <script>
+    
+    function myFunction19() {
+    document.getElementById("myDropdown19").classList.toggle("show19");
+    }
+    
+    </script> -->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <div class="navbar22">
+      <div class="dropdown22">
+      <button class="dropbtn22" onclick="myFunction22()">
+        <div class="b-s28">
+          <div class="ima21">
+            <img src="./IMAGES1/Pins1.png"/>
+            </div>
+        </div>
+          <i class="fa fa-caret-down22"></i>
+      </button>
+          <div class="dropdown-content22" id="myDropdown22">
+          
+
+
+
+            
+            
+
+
+
+
+              <div class="carousel-container3">
+                <div class="carousel3">
+                  
+        
+         <div class="b-s6">                
+        
+        
+        
+        
+          <div class="navbar23">
+            <div class="dropdown23">
+            <button class="dropbtn23" onclick="myFunction23()">
+              <div class="b-s29">
+                <div class="ima22">
+                  <img src="./IMAGES1/Pins1.png"/>
+                  </div>
+              </div>
+                <i class="fa fa-caret-down23"></i>
+            </button>
+                <div class="dropdown-content23 dropdown-content" id="myDropdown23">
+                  <div class="b-s6">
+
+
+
+
+                    <div class="b-s8">
+
+                        <input type="radio" id="position_ecusson_gauche" name="position_ecusson" value="gauche" onclick="myFunction50('gauche')">
+                        <label for="position_ecusson_gauche">gauche</label><br>
+                        <input type="radio" id="position_ecusson_droite" name="position_ecusson" value="droite" onclick="myFunction50('droite')">
+                        <label for="position_ecusson_droite">droite</label><br>
+                       
+                        
+                  
+                      </div>
+
+
+                      
+
+                        
+
+
+                      
+                </div>
+                </div>
+            </div>  
+          </div>  
+          
+          
+
+          <script>
+          
+            function myFunction50(sens) {    
+              var elements = document.getElementsByClassName('b-s85');
+              for(var i = 0; i < elements.length; i++){
+                
+              elements[i].classList.remove("showblock"); 
+              
+             }
+              document.getElementById("taitedemort"+sens).classList.add("showblock");
+            }
+            
+            </script>
+
+
+
+
+
+            
+
+
+
+
+
+            
+
+
+
+
+
+          
+          <script>
+          
+          function myFunction23() {    
+            var elements = document.getElementsByClassName('dropdown-content');
+            for(var i = 0; i < elements.length; i++){
+              if(elements[i].id!='myDropdown23'){
+            elements[i].classList.remove("showblock"); 
+            }
+           }
+            document.getElementById("myDropdown23").classList.toggle("showblock");
+          }
+          
+          </script>
+      
+      
+      
+      
+      
+      
+      <div class="navbar24">
+      <div class="dropdown24">
+      <button class="dropbtn24" onclick="myFunction24()">
+        <div class="b-s30">
+          <div class="ima23">
+            <img src="./IMAGES1/pins2.png"/>
+            </div>
+        </div>
+      <i class="fa fa-caret-down24"></i>
+      </button>
+      <div class="dropdown-content24 dropdown-content" id="myDropdown24">
+      
+        <div class="b-s8">
+
+            <input type="radio" id="position_ecusson_gauche" name="position_ecusson" value="gauche" onclick="myFunction51('gauche')">
+            <label for="position_ecusson_gauche">gauche</label><br>
+            <input type="radio" id="position_ecusson_droite" name="position_ecusson" value="droite" onclick="myFunction51('droite')">
+            <label for="position_ecusson_droite">droite</label><br>
+           
+            
+      
+          </div>
+
+     
+      
+      
+      </div>
+      </div>  
+      </div>  
+      
+      <script>
+                                
+        function myFunction51(sens) {    
+          var elements = document.getElementsByClassName('b-s86');
+          for(var i = 0; i < elements.length; i++){
+            
+          elements[i].classList.remove("showblock"); 
+          
+        }
+          document.getElementById("t-shirt"+sens).classList.add("showblock");
+        }
+        
+        </script>
+      
+      <script>
+      
+      function myFunction24() {
+        var elements = document.getElementsByClassName('dropdown-content');
+            for(var i = 0; i < elements.length; i++){
+              if(elements[i].id!='myDropdown24'){
+            elements[i].classList.remove("showblock"); 
+            }
+           }
+      document.getElementById("myDropdown24").classList.toggle("showblock");
+      }
+      
+      </script>
+</div>
+        
+        
+        
+
+
+
+
+<div class="b-s6">                
+        
+        
+        
+        
+<div class="navbar25">
+<div class="dropdown25">
+<button class="dropbtn25" onclick="myFunction25()">
+  <div class="b-s31">
+    <div class="ima24">
+      <img src="./IMAGES1/Pins3.png"/>
+      </div>
+  </div>
+<i class="fa fa-caret-down25"></i>
+</button>
+<div class="dropdown-content25 dropdown-content" id="myDropdown25">
+<div class="b-s8">
+
+    <input type="radio" id="position_ecusson_gauche" name="position_ecusson" value="gauche" onclick="myFunction52('gauche')">
+    <label for="position_ecusson_gauche">gauche</label><br>
+    <input type="radio" id="position_ecusson_droite" name="position_ecusson" value="droite" onclick="myFunction52('droite')">
+    <label for="position_ecusson_droite">droite</label><br>
+   
+    
+
+  </div>
+
+
+</div>
+</div>  
+</div>  
+
+<script>
+                                
+function myFunction52(sens) {    
+var elements = document.getElementsByClassName('b-s87');
+for(var i = 0; i < elements.length; i++){
+
+elements[i].classList.remove("showblock"); 
+
+}
+document.getElementById("cochon"+sens).classList.add("showblock");
+}
+
+</script>
+
+<script>
+
+function myFunction25() {
+var elements = document.getElementsByClassName('dropdown-content');
+            for(var i = 0; i < elements.length; i++){
+              if(elements[i].id!='myDropdown25'){
+            elements[i].classList.remove("showblock"); 
+            }
+           }
+document.getElementById("myDropdown25").classList.toggle("showblock");
+}
+
+</script>
+
+
+
+
+
+
+<div class="navbar26">
+<div class="dropdown26">
+<button class="dropbtn26" onclick="myFunction26()">
+  <div class="b-s32">
+    <div class="ima25">
+      <img src="./IMAGES1/Pins4.png"/>
+      </div>
+  </div>
+<i class="fa fa-caret-down26"></i>
+</button>
+<div class="dropdown-content26 dropdown-content" id="myDropdown26">
+<div class="b-s8">
+
+  <input type="radio" id="position_ecusson_gauche" name="position_ecusson" value="gauche" onclick="myFunction53('gauche')">
+  <label for="position_ecusson_gauche">gauche</label><br>
+  <input type="radio" id="position_ecusson_droite" name="position_ecusson" value="droite" onclick="myFunction53('droite')">
+  <label for="position_ecusson_droite">droite</label><br>
+ 
+
+
+</div>
+
+
+</div>
+</div>  
+</div>  
+
+<script>
+                        
+function myFunction53(sens) {    
+var elements = document.getElementsByClassName('b-s88');
+for(var i = 0; i < elements.length; i++){
+
+elements[i].classList.remove("showblock"); 
+
+}
+document.getElementById("cote"+sens).classList.add("showblock");
+}
+
+</script>
+
+<script>
+
+function myFunction26() {
+var elements = document.getElementsByClassName('dropdown-content');
+            for(var i = 0; i < elements.length; i++){
+              if(elements[i].id!='myDropdown26'){
+            elements[i].classList.remove("showblock"); 
+            }
+           }
+document.getElementById("myDropdown26").classList.toggle("showblock");
+}
+
+</script>
+</div>
+
+
+
+
+
+      <div class="b-s6">                
+        
+        
+        
+        
+            <div class="navbar27">
+              <div class="dropdown27">
+              <button class="dropbtn27" onclick="myFunction27()">
+                <div class="b-s33">
+                  <div class="ima26">
+                    <img src="./IMAGES1/Pins5.png"/>
+                    </div>
+                </div>
+                  <i class="fa fa-caret-down27"></i>
+              </button>
+                  <div class="dropdown-content27 dropdown-content" id="myDropdown27">
+                    <div class="b-s8">
+
+                        <input type="radio" id="position_ecusson_gauche" name="position_ecusson" value="gauche" onclick="myFunction54('gauche')">
+                        <label for="position_ecusson_gauche">gauche</label><br>
+                        <input type="radio" id="position_ecusson_droite" name="position_ecusson" value="droite" onclick="myFunction54('droite')">
+                        <label for="position_ecusson_droite">droite</label><br>
+                       
+                        
+                  
+                      </div>
+            
+            
+                  </div>
+              </div>  
+            </div>  
+            
+            <script>
+                                                    
+              function myFunction54(sens) {    
+                var elements = document.getElementsByClassName('b-s89');
+                for(var i = 0; i < elements.length; i++){
+                  
+                elements[i].classList.remove("showblock"); 
+                
+              }
+                document.getElementById("drapaux"+sens).classList.add("showblock");
+              }
+              
+              </script>
+            
+            <script>
+            
+            function myFunction27() {
+              var elements = document.getElementsByClassName('dropdown-content');
+            for(var i = 0; i < elements.length; i++){
+              if(elements[i].id!='myDropdown27'){
+            elements[i].classList.remove("showblock"); 
+            }
+           }
+            document.getElementById("myDropdown27").classList.toggle("showblock");
+            }
+            
+            </script>
+        
+        
+        
+        
+        
+        
+        <div class="navbar28">
+        <div class="dropdown28">
+        <button class="dropbtn28" onclick="myFunction28()">
+          <div class="b-s34">
+            <div class="ima27">
+              <img src="./IMAGES1/Pins6.png"/>
+              </div>
+          </div>
+        <i class="fa fa-caret-down28"></i>
+        </button>
+        <div class="dropdown-content28 dropdown-content" id="myDropdown28">
+          <div class="b-s8">
+
+              <input type="radio" id="position_ecusson_gauche" name="position_ecusson" value="gauche" onclick="myFunction55('gauche')">
+              <label for="position_ecusson_gauche">gauche</label><br>
+              <input type="radio" id="position_ecusson_droite" name="position_ecusson" value="NON" onclick="myFunction55('NON')">
+              <label for="position_ecusson_droite">rien</label><br>
+             
+              
+        
+            </div>
+  
+  
+        </div>
+    </div>  
+  </div>  
+  
+  <script>
+                                          
+    function myFunction55(sens) {    
+      var elements = document.getElementsByClassName('b-s90');
+      for(var i = 0; i < elements.length; i++){
+        
+      elements[i].classList.remove("showblock"); 
+      
+    }
+      document.getElementById("chien"+sens).classList.add("showblock");
+    }
+    
+    </script>
+        
+        <script>
+        
+        function myFunction28() {
+          var elements = document.getElementsByClassName('dropdown-content');
+            for(var i = 0; i < elements.length; i++){
+              if(elements[i].id!='myDropdown28'){
+            elements[i].classList.remove("showblock"); 
+            }
+           }
+        document.getElementById("myDropdown28").classList.toggle("showblock");
+        }
+        
+        </script>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+                
+            </div>
+          
+        
+        
+            <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const carouselContainer = document.querySelector('.carousel-container3');
+            const carousel = document.querySelector('.carousel3');
+            let isMouseDown = false;
+            let startY;
+            let scrollTop;
+        
+            carouselContainer.addEventListener('mousedown', (e) => {
+                isMouseDown = true;
+                startY = e.pageY - carouselContainer.offsetTop;
+                scrollTop = carouselContainer.scrollTop;
+                carouselContainer.style.cursor = 'grabbing';
+                carouselContainer.style.userSelect = 'none';
+            });
+        
+            carouselContainer.addEventListener('mouseleave', () => {
+                isMouseDown = false;
+                carouselContainer.style.cursor = 'grab';
+            });
+        
+            carouselContainer.addEventListener('mouseup', () => {
+                isMouseDown = false;
+                carouselContainer.style.cursor = 'grab';
+            });
+        
+            carouselContainer.addEventListener('mousemove', (e) => {
+                if (!isMouseDown) return;
+                e.preventDefault();
+                const y = e.pageY - carouselContainer.offsetTop;
+                const walk = (y - startY) * 2; 
+                carouselContainer.scrollTop = scrollTop - walk;
+            });
+        
+            carouselContainer.style.cursor = 'grab';
+        });
+            </script>
+        
+       
+
+</div>
+
+
+
+
+    
+          </div>
+      </div>  
+    </div>  
+    
+    
+    <script>
+   
+      function myFunction22() {
+        var elements = document.getElementsByClassName('dropdown-content');
+      for(var i = 0; i < elements.length; i++){
+        if(elements[i].id!='myDropdown22'){
+      elements[i].classList.remove("show22"); 
+      }
+     }
+      document.getElementById("myDropdown22").classList.toggle("show22");
+      }
+ 
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <!-- <div class="navbar24">
+      <div class="dropdown24">
+      <button class="dropbtn24" onclick="myFunction24()">
+        <div class="b-s33">
+        </div>
+          <i class="fa fa-caret-down24"></i>
+      </button>
+          <div class="dropdown-content24" id="myDropdown24">
+          
+  
+  
+  
+            <div class="b-s6">
+            
+  
+  
+  
+  
+          <div class="navbar25">
+            <div class="dropdown25">
+            <button class="dropbtn25" onclick="myFunction25()">
+              <div class="b-s34">
+              </div>
+                <i class="fa fa-caret-down25"></i>
+            </button>
+                <div class="dropdown-content25" id="myDropdown25">
+                <div class="b-s35">
+                </div>
+          
+          
+                </div>
+            </div>  
+          </div>  
+          
+          <script>
+  
+            document.addEventListener('DOMContentLoaded', () => {
+                const colorBox = document.querySelector('.b-s35');
+                let isInitialColor = true;
+            
+                colorBox.addEventListener('click', () => {
+                    if (isInitialColor) {
+                        colorBox.style.backgroundColor = '#ffffff'; 
+                    } else {
+                        colorBox.style.backgroundColor = '#000000'; 
+                    }
+                    isInitialColor = !isInitialColor;
+                });
+            });
+                </script>
+          
+          <script>
+          
+          function myFunction25() {
+          document.getElementById("myDropdown25").classList.toggle("show25");
+          }
+          
+          </script>
+  
+  
+  
+  
+  
+  
+  <div class="navbar26">
+  <div class="dropdown26">
+  <button class="dropbtn26" onclick="myFunction26()">
+  <div class="b-s36">
+  </div>
+    <i class="fa fa-caret-down26"></i>
+  </button>
+    <div class="dropdown-content26" id="myDropdown26">
+    <div class="b-s37">
+    </div>
+  
+  
+    </div>
+  </div>  
+  </div>  
+  
+  <script>
+  
+  document.addEventListener('DOMContentLoaded', () => {
+    const colorBox = document.querySelector('.b-s37');
+    let isInitialColor = true;
+  
+    colorBox.addEventListener('click', () => {
+        if (isInitialColor) {
+            colorBox.style.backgroundColor = '#ffffff'; 
+        } else {
+            colorBox.style.backgroundColor = '#000000'; 
+        }
+        isInitialColor = !isInitialColor;
+    });
+  });
+    </script>
+  
+  <script>
+  
+  function myFunction26() {
+  document.getElementById("myDropdown26").classList.toggle("show26");
+  }
+  
+  </script>
+  
+  </div>
+  
+  
+  
+  <div class="b-s6">
+            
+  
+  
+  
+  
+  <div class="navbar27">
+  <div class="dropdown27">
+  <button class="dropbtn27" onclick="myFunction27()">
+    <div class="b-s38">
+    </div>
+      <i class="fa fa-caret-down27"></i>
+  </button>
+      <div class="dropdown-content27" id="myDropdown27">
+      <div class="b-s39">
+      </div>
+  
+  
+      </div>
+  </div>  
+  </div>  
+  
+  <script>
+  
+  document.addEventListener('DOMContentLoaded', () => {
+      const colorBox = document.querySelector('.b-s39');
+      let isInitialColor = true;
+  
+      colorBox.addEventListener('click', () => {
+          if (isInitialColor) {
+              colorBox.style.backgroundColor = '#ffffff'; 
+          } else {
+              colorBox.style.backgroundColor = '#000000'; 
+          }
+          isInitialColor = !isInitialColor;
+      });
+  });
+      </script>
+  
+  <script>
+  
+  function myFunction27() {
+  document.getElementById("myDropdown27").classList.toggle("show27");
+  }
+  
+  </script>
+  
+  
+  
+  
+  
+  
+  <div class="navbar28">
+  <div class="dropdown28">
+  <button class="dropbtn28" onclick="myFunction28()">
+  <div class="b-s40">
+  </div>
+  <i class="fa fa-caret-down28"></i>
+  </button>
+  <div class="dropdown-content28" id="myDropdown28">
+  <div class="b-s41">
+  </div>
+  
+  
+  </div>
+  </div>  
+  </div>  
+  
+  <script>
+  
+  document.addEventListener('DOMContentLoaded', () => {
+  const colorBox = document.querySelector('.b-s41');
+  let isInitialColor = true;
+  
+  colorBox.addEventListener('click', () => {
+  if (isInitialColor) {
+  colorBox.style.backgroundColor = '#ffffff'; 
+  } else {
+  colorBox.style.backgroundColor = '#000000'; 
+  }
+  isInitialColor = !isInitialColor;
+  });
+  });
+  </script>
+  
+  <script>
+  
+  function myFunction28() {
+  document.getElementById("myDropdown28").classList.toggle("show28");
+  }
+  
+  </script>
+  
+  </div>
+  
+  
+  
+  
+    
+          </div>
+      </div>  
+    </div>  
+    
+    
+    <script>
+    
+    function myFunction24() {
+    document.getElementById("myDropdown24").classList.toggle("show24");
+    }
+    
+    </script>
+   -->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+              
+  <!-- <div class="navbar29">
+      <div class="dropdown29">
+      <button class="dropbtn29" onclick="myFunction29()">
+        <div class="b-s42">
+        </div>
+          <i class="fa fa-caret-down29"></i>
+      </button>
+          <div class="dropdown-content29" id="myDropdown29">
+          
+  
+  
+  
+            <div class="b-s6">
+            
+  
+  
+  
+  
+          <div class="navbar30">
+            <div class="dropdown30">
+            <button class="dropbtn30" onclick="myFunction30()">
+              <div class="b-s43">
+              </div>
+                <i class="fa fa-caret-down30"></i>
+            </button>
+                <div class="dropdown-content30" id="myDropdown30">
+                <div class="b-s44">
+                </div>
+          
+          
+                </div>
+            </div>  
+          </div>  
+          
+          <script>
+  
+            document.addEventListener('DOMContentLoaded', () => {
+                const colorBox = document.querySelector('.b-s44');
+                let isInitialColor = true;
+            
+                colorBox.addEventListener('click', () => {
+                    if (isInitialColor) {
+                        colorBox.style.backgroundColor = '#ffffff'; 
+                    } else {
+                        colorBox.style.backgroundColor = '#000000'; 
+                    }
+                    isInitialColor = !isInitialColor;
+                });
+            });
+                </script>
+          
+          <script>
+          
+          function myFunction30() {
+          document.getElementById("myDropdown30").classList.toggle("show30");
+          }
+          
+          </script>
+  
+  
+  
+  
+  
+  
+  <div class="navbar31">
+  <div class="dropdown31">
+  <button class="dropbtn31" onclick="myFunction31()">
+  <div class="b-s45">
+  </div>
+    <i class="fa fa-caret-down31"></i>
+  </button>
+    <div class="dropdown-content31" id="myDropdown31">
+    <div class="b-s46">
+    </div>
+  
+  
+    </div>
+  </div>  
+  </div>  
+  
+  <script>
+  
+  document.addEventListener('DOMContentLoaded', () => {
+    const colorBox = document.querySelector('.b-s46');
+    let isInitialColor = true;
+  
+    colorBox.addEventListener('click', () => {
+        if (isInitialColor) {
+            colorBox.style.backgroundColor = '#ffffff'; 
+        } else {
+            colorBox.style.backgroundColor = '#000000'; 
+        }
+        isInitialColor = !isInitialColor;
+    });
+  });
+    </script>
+  
+  <script>
+  
+  function myFunction31() {
+  document.getElementById("myDropdown31").classList.toggle("show31");
+  }
+  
+  </script>
+  
+  </div>
+  
+  
+  
+  <div class="b-s6">
+            
+  
+  
+  
+  
+  <div class="navbar32">
+  <div class="dropdown32">
+  <button class="dropbtn32" onclick="myFunction32()">
+    <div class="b-s47">
+    </div>
+      <i class="fa fa-caret-down32"></i>
+  </button>
+      <div class="dropdown-content32" id="myDropdown32">
+      <div class="b-s48">
+      </div>
+  
+  
+      </div>
+  </div>  
+  </div>  
+  
+  <script>
+  
+  document.addEventListener('DOMContentLoaded', () => {
+      const colorBox = document.querySelector('.b-s48');
+      let isInitialColor = true;
+  
+      colorBox.addEventListener('click', () => {
+          if (isInitialColor) {
+              colorBox.style.backgroundColor = '#ffffff'; 
+          } else {
+              colorBox.style.backgroundColor = '#000000'; 
+          }
+          isInitialColor = !isInitialColor;
+      });
+  });
+      </script>
+  
+  <script>
+  
+  function myFunction32() {
+  document.getElementById("myDropdown32").classList.toggle("show32");
+  }
+  
+  </script>
+  
+  
+  
+  
+  
+  
+  <div class="navbar33">
+  <div class="dropdown33">
+  <button class="dropbtn33" onclick="myFunction33()">
+  <div class="b-s49">
+  </div>
+  <i class="fa fa-caret-down33"></i>
+  </button>
+  <div class="dropdown-content33" id="myDropdown33">
+  <div class="b-s50">
+  </div>
+  
+  
+  </div>
+  </div>  
+  </div>  
+  
+  <script>
+  
+  document.addEventListener('DOMContentLoaded', () => {
+  const colorBox = document.querySelector('.b-s50');
+  let isInitialColor = true;
+  
+  colorBox.addEventListener('click', () => {
+  if (isInitialColor) {
+  colorBox.style.backgroundColor = '#ffffff'; 
+  } else {
+  colorBox.style.backgroundColor = '#000000'; 
+  }
+  isInitialColor = !isInitialColor;
+  });
+  });
+  </script>
+  
+  <script>
+  
+  function myFunction33() {
+  document.getElementById("myDropdown33").classList.toggle("show33");
+  }
+  
+  </script>
+  
+  </div>
+  
+  
+  
+  
+    
+          </div>
+      </div>  
+    </div>  
+    
+    
+    <script>
+    
+    function myFunction29() {
+    document.getElementById("myDropdown29").classList.toggle("show29");
+    }
+    
+    </script> -->
+  
+  
+  
+  
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+              </div>
+  
+  
+  
+  
+  
+          </div>
+      </div>  
+    </div>  
+  
+  
+  <script>
+  
+  function myFunction8(picture) {
+    document.getElementById("myDropdown8").classList.toggle("show8");
+    document.getElementById("main-picture").src=picture;
+    document.getElementById("main-picture").style.display="block"
+  }
+  
+  </script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+              <div class="b-s51">
+                <div class="ima2">
+                  <img src="./IMAGES1/TS-Coll-v-bleuclair.png"/>
+                </div>
+              </div>
+  
+              <div class="b-s52">
+                <div class="ima3">
+                  <img src="./IMAGES1/TS-boutons-blanc.png"/>
+                </div>
+              </div>
+  
+  
+  
+  
+    
+  
+
+
+              
+              
+                <div class="navbar34">
+                  <div class="dropdown34">
+                    <button class="dropbtn34" onclick="myFunction34()">
+                      <div class="b-s53">couleur</div>
+                      <i class="fa fa-caret-down34"></i>
+                    </button>
+                    <div class="dropdown-content34" id="myDropdown34">
+                      <div class="b-s54">
+              
+                        <div class="navbar50">
+                          <div class="dropdown50">
+                            <button class="dropbtn50" onclick="myFunction50('./IMAGES1/TS-Coll-rond-blanc.png')">
+                              <div class="b-s55"></div>
+                              <i class="fa fa-caret-down50"></i>
+                            </button>
+                            <div class="dropdown-content50 dropdown-content" id="myDropdown50"></div>
+                          </div>  
+                        </div>  
+              
+                        <script>
+                        function myFunction50(picture) {    
+                          var elements = document.getElementsByClassName('dropdown-content');
+                          for (var i = 0; i < elements.length; i++) {
+                            if (elements[i].id != 'myDropdown50') {
+                              elements[i].classList.remove("show50"); 
+                            }
+                          }
+                          document.getElementById("myDropdown50").classList.toggle("show50");
+                          document.getElementById("main-picture").src = picture;
+                          document.getElementById("main-picture").style.display = "block";
+                        }
+                        </script>
+              
+                        <div class="navbar51">
+                          <div class="dropdown51">
+                            <button class="dropbtn51" onclick="myFunction51('./IMAGES1/TS-Coll-rond-bleumarine.png')">
+                              <div class="b-s56"></div>
+                              <i class="fa fa-caret-down51"></i>
+                            </button>
+                            <div class="dropdown-content51 dropdown-content" id="myDropdown51"></div>
+                          </div>  
+                        </div>  
+              
+                        <script>
+                        function myFunction51(picture) {    
+                          var elements = document.getElementsByClassName('dropdown-content');
+                          for (var i = 0; i < elements.length; i++) {
+                            if (elements[i].id != 'myDropdown51') {
+                              elements[i].classList.remove("show51"); 
+                            }
+                          }
+                          document.getElementById("myDropdown51").classList.toggle("show51");
+                          document.getElementById("main-picture1").src = picture;
+                          document.getElementById("main-picture1").style.display = "block";
+                        }
+                        </script>
+              
+                        <div class="navbar52">
+                          <div class="dropdown52">
+                            <button class="dropbtn52" onclick="myFunction52('./IMAGES1/TS-Coll-rond-rouge.png')">
+                              <div class="b-s57"></div>
+                              <i class="fa fa-caret-down52"></i>
+                            </button>
+                            <div class="dropdown-content52 dropdown-content" id="myDropdown52"></div>
+                          </div>  
+                        </div>  
+              
+                        <script>
+                        function myFunction52(picture) {    
+                          var elements = document.getElementsByClassName('dropdown-content');
+                          for (var i = 0; i < elements.length; i++) {
+                            if (elements[i].id != 'myDropdown52') {
+                              elements[i].classList.remove("show52"); 
+                            }
+                          }
+                          document.getElementById("myDropdown52").classList.toggle("show52");
+                          document.getElementById("main-picture2").src = picture;
+                          document.getElementById("main-picture2").style.display = "block";
+                        }
+                        </script>
+                      </div>
+              
+                      <div class="b-s54">
+                        <div class="navbar53">
+                          <div class="dropdown53">
+                            <button class="dropbtn53" onclick="myFunction53('./IMAGES1/TS-Coll-rond-jaune.png')">
+                              <div class="b-s91"></div>
+                              <i class="fa fa-caret-down53"></i>
+                            </button>
+                            <div class="dropdown-content53 dropdown-content" id="myDropdown53"></div>
+                          </div>  
+                        </div>  
+              
+                        <script>
+                        function myFunction53(picture) {    
+                          var elements = document.getElementsByClassName('dropdown-content');
+                          for (var i = 0; i < elements.length; i++) {
+                            if (elements[i].id != 'myDropdown53') {
+                              elements[i].classList.remove("show53"); 
+                            }
+                          }
+                          document.getElementById("myDropdown53").classList.toggle("show53");
+                          document.getElementById("main-picture3").src = picture;
+                          document.getElementById("main-picture3").style.display = "block";
+                        }
+                        </script>
+              
+                        <div class="navbar54">
+                          <div class="dropdown54">
+                            <button class="dropbtn54" onclick="myFunction54('./IMAGES1/TS-Coll-rond-bleuclair.png')">
+                              <div class="b-s92"></div>
+                              <i class="fa fa-caret-down54"></i>
+                            </button>
+                            <div class="dropdown-content54 dropdown-content" id="myDropdown54"></div>
+                          </div>  
+                        </div>  
+              
+                        <script>
+                        function myFunction54(picture) {    
+                          var elements = document.getElementsByClassName('dropdown-content');
+                          for (var i = 0; i < elements.length; i++) {
+                            if (elements[i].id != 'myDropdown54') {
+                              elements[i].classList.remove("show54"); 
+                            }
+                          }
+                          document.getElementById("myDropdown54").classList.toggle("show54");
+                          document.getElementById("main-picture4").src = picture;
+                          document.getElementById("main-picture4").style.display = "block";
+                        }
+                        </script>
+                      </div>
+                    </div>
+                  </div> 
+                </div>
+              
+                <script>
+                function myFunction34() {
+                  document.getElementById("myDropdown34").classList.toggle("show34");
+                }
+                </script>
+              
+              
+
+
+
+  
+  <div class="navbar35">
+    <div class="dropdown35">
+    <button class="dropbtn35" onclick="myFunction35()">
+      <div class="b-s59">
+      taille
+    </div>
+        <i class="fa fa-caret-down35"></i>
+    </button>
+        <div class="dropdown-content35" id="myDropdown35">
+          <div class="b-s60">
+            <div class="b-s61">
+              <div class="b-s62">
+                <p>XS</p>
+              </div>
+            </div>
+            <div class="b-s63">
+              <div class="b-s64">
+                <p>S</p>
+              </div>
+            </div>
+            <div class="b-s65">
+              <div class="b-s66">
+                <p>M</p>
+              </div>
+            </div>
+          </div>
+          <div class="b-s67">
+            <div class="b-s68">
+              </p>L</p>
+            </div>
+          </div>
+        </div>
+    </div> 
+  </div>
+  
+  <script>
+  
+  function myFunction35() {
+  document.getElementById("myDropdown35").classList.toggle("show35");
+  }
+  
+  </script>
+  </div>
+  
+
+  </body>
+  </html>     

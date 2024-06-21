@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="peutètre7.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+  
+            
+  
+
+
+             <div class="navbar1">
+                <div class="dropdown1">
+                <button class="dropbtn1" onclick="myFunction1()">
+                  <div class="b-24">
+                  Mood
+                  </div>
+                    <i class="fa fa-caret-down1"></i>
+                </button>
+                    <div class="dropdown-content1" id="myDropdown1">
+                        <div class="carousel-container">
+                            <div class="carousel">
+                        <div class="b-2">
+                            <a href="#">
+                                <div class="im1">
+                                    <img src="./IMAGES1/Depositphotos_211065034_XL.jpg"/>
+                                </div>
+                                <div class="b-6">
+                                    <div class="b-7">
+                                      <p>Lorem ipsum dolor sit amet. 
+                    Eum ducimus reiciendis id 
+                    eius dolorem ut blanditiis 
+                    facere. Qui atque natus et 
+                    quia molestiae in quod sint
+                     aut tenetur nihil!</p>
+                                      </div>
+                                      </div>
+                            </a>
+                            <a href="#">
+                                <div class="im1">
+                                    <img src="./IMAGES1/Depositphotos_34784409_XL.jpg"/>
+                                </div>
+                                <div class="b-8">
+                                    <div class="b-9">
+                                      <p>Lorem ipsum dolor sit amet. 
+                    Eum ducimus reiciendis id 
+                    eius dolorem ut blanditiis 
+                    facere. Qui atque natus et 
+                    quia molestiae in quod sint
+                     aut tenetur nihil!</p>
+                                      </div>
+                                      </div>
+                            </a>
+                        </div>
+                        <div class="b-3">
+                            <a href="#">
+                                <div class="im1">
+                                    <img src="./IMAGES1/Fotolia_188806_XS.jpg"/>
+                                </div>
+                                <div class="b-10">
+                                    <div class="b-11">
+                                      <p>Lorem ipsum dolor sit amet. 
+                    Eum ducimus reiciendis id 
+                    eius dolorem ut blanditiis 
+                    facere. Qui atque natus et 
+                    quia molestiae in quod sint
+                     aut tenetur nihil!</p>
+                                      </div>
+                                      </div>
+                            </a>
+                            <a href="#">
+                                <div class="im1">
+                                    <img src="./IMAGES1/Fotolia_38023519_S.jpg"/>
+                            </div>
+                            <div class="b-12">
+                                <div class="b-13">
+                                  <p>Lorem ipsum dolor sit amet. 
+                Eum ducimus reiciendis id 
+                eius dolorem ut blanditiis 
+                facere. Qui atque natus et 
+                quia molestiae in quod sint
+                 aut tenetur nihil!</p>
+                                  </div>
+                                  </div>
+                        </a>
+                        </div>
+                        <div class="b-4">
+                            <a href="#">
+                                <div class="im1">
+                                    <img src="./IMAGES1/Fotolia_62379893_XS.jpg"/>
+                                </div>
+                                <div class="b-14">
+                                    <div class="b-15">
+                                      <p>Lorem ipsum dolor sit amet. 
+                    Eum ducimus reiciendis id 
+                    eius dolorem ut blanditiis 
+                    facere. Qui atque natus et 
+                    quia molestiae in quod sint
+                     aut tenetur nihil!</p>
+                                      </div>
+                                      </div>
+                            </a>
+                            <a href="#">
+                                <div class="im1">
+                                    <img src="./IMAGES1/Fotolia_12967994_XS.jpg"/>
+                                </div>
+                                <div class="b-16">
+                                    <div class="b-17">
+                                      <p>Lorem ipsum dolor sit amet. 
+                    Eum ducimus reiciendis id 
+                    eius dolorem ut blanditiis 
+                    facere. Qui atque natus et 
+                    quia molestiae in quod sint
+                     aut tenetur nihil!</p>
+                                      </div>
+                                      </div>
+                            </a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            
+            <script>
+            
+            function myFunction1() {
+              document.getElementById("myDropdown1").classList.toggle("show1");
+            }
+        
+            </script>
+
+
+
+
+        </div>
+    </div>
+    <script>
+document.addEventListener('DOMContentLoaded', () => {
+    const carouselContainer = document.querySelector('.carousel-container');
+    const carousel = document.querySelector('.carousel');
+    let isMouseDown = false;
+    let startY;
+    let scrollTop;
+
+    carouselContainer.addEventListener('mousedown', (e) => {
+        isMouseDown = true;
+        startY = e.pageY - carouselContainer.offsetTop;
+        scrollTop = carouselContainer.scrollTop;
+        carouselContainer.style.cursor = 'grabbing';
+        carouselContainer.style.userSelect = 'none';
+    });
+
+    carouselContainer.addEventListener('mouseleave', () => {
+        isMouseDown = false;
+        carouselContainer.style.cursor = 'grab';
+    });
+
+    carouselContainer.addEventListener('mouseup', () => {
+        isMouseDown = false;
+        carouselContainer.style.cursor = 'grab';
+    });
+
+    carouselContainer.addEventListener('mousemove', (e) => {
+        if (!isMouseDown) return;
+        e.preventDefault();
+        const y = e.pageY - carouselContainer.offsetTop;
+        const walk = (y - startY) * 2; 
+        carouselContainer.scrollTop = scrollTop - walk;
+    });
+
+    carouselContainer.style.cursor = 'grab';
+});
+    </script> 
+
+
+
+
+
+
+
+
+
+</body>
+</html>     
